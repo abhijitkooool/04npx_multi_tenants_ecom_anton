@@ -38,7 +38,9 @@
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
   --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
+  /* default to change for neobrutalism 
+  --radius-md: calc(var(--radius) - 2px); reduced to -4px, for md for all components we want less round */
+ --radius-md: calc(var(--radius) - 4px); 
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 }
