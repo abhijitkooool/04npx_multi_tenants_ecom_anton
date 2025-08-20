@@ -16,7 +16,7 @@ function Progress({
       className={cn(
         "relative h-3 w-full overflow-hidden rounded-full",
         // modification for neobrutalism by abhi remove bg-primary/20 and replace h-3 with h-2
-        "border bg-transparent",
+        "border bg-white",
         className
       )}
       {...props}
@@ -24,7 +24,7 @@ function Progress({
       <ProgressPrimitive.Indicator
         data-slot="progress-indicator"
         // replacing bg-primary from indicator with pink-400
-        className="bg-pink-400 h-full w-full flex-1 transition-all"
+        className="bg-srjt-accent h-full w-full flex-1 transition-all"
         style={{ transform: `translateX(-${100 - (value || 0)}%)` }}
       />
     </ProgressPrimitive.Root>
